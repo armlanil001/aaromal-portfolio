@@ -39,24 +39,23 @@ export const Header: React.FC = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-xl border-b border-white/10 h-16">
       <nav className="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop md:px-margin-desktop px-margin-mobile h-full">
-        <a 
-          href="https://aaromalanil.in" 
+        <a
+          href="https://aaromalanil.in"
           className="font-code-sm text-code-sm font-bold tracking-tighter text-primary hover:brightness-110 transition-all"
         >
           aaromalanil.in
         </a>
-        
+
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className={`font-label-caps text-label-caps tracking-wider transition-colors pb-1 ${
-                activeSection === link.id
+              className={`font-label-caps text-label-caps tracking-wider transition-colors pb-1 ${activeSection === link.id
                   ? 'text-primary border-b border-primary'
                   : 'text-on-surface-variant hover:text-primary'
-              }`}
+                }`}
             >
               {link.name}
             </a>
@@ -81,16 +80,15 @@ export const Header: React.FC = () => {
 
       {/* Mobile Nav Overlay */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 top-16 bg-surface/95 backdrop-blur-2xl z-40 md:hidden animate-fade-in">
+        <div className="fixed w-full top-16 bg-surface/95 backdrop-blur-2xl z-40 md:hidden animate-fade-in">
           <div className="flex flex-col items-center justify-center space-y-8 h-[calc(100vh-4rem)]">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`font-headline-md text-headline-md transition-colors ${
-                  activeSection === link.id ? 'text-primary' : 'text-on-surface-variant hover:text-primary'
-                }`}
+                className={`font-headline-md text-headline-md transition-colors ${activeSection === link.id ? 'text-primary' : 'text-on-surface-variant hover:text-primary'
+                  }`}
               >
                 {link.name}
               </a>
