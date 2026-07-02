@@ -40,10 +40,10 @@ export const Header: React.FC = () => {
     <header className="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-xl border-b border-white/10 h-16">
       <nav className="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop md:px-margin-desktop px-margin-mobile h-full">
         <a 
-          href="#about" 
+          href="https://aaromalanil.in" 
           className="font-code-sm text-code-sm font-bold tracking-tighter text-primary hover:brightness-110 transition-all"
         >
-          AAROMAL_ANIL.dev
+          aaromalanil.in
         </a>
         
         {/* Desktop Nav */}

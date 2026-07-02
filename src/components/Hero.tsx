@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Code, ChevronDown } from 'lucide-react';
+import { ArrowRight, Code, ChevronDown, Download } from 'lucide-react';
 import {
   SiReact,
   SiNodedotjs,
@@ -49,7 +49,7 @@ export const Hero: React.FC = () => {
             <div className="inline-flex items-center space-x-2 mb-6">
               <span className="h-[1px] w-12 bg-primary"></span>
               <span className="font-label-caps text-label-caps text-primary uppercase tracking-[0.2em]">
-                💼 Frontend | React | TypeScript | MERN
+                 Frontend | React | JS | TS | MERN
               </span>
             </div>
 
@@ -62,7 +62,7 @@ export const Hero: React.FC = () => {
             </h2>
 
             <p className="font-body-lg text-body-lg text-on-surface-variant/80 max-w-2xl leading-relaxed mb-10">
-             I see software development as a balance between engineering and creativity. Every feature is an opportunity to simplify complexity, every optimization is a chance to improve user experience, and every line of code is written with maintainability in mind. Driven by curiosity and continuous learning, I enjoy building modern applications that are fast, scalable, and genuinely useful.
+              I see software development as a balance between engineering and creativity. Every feature is an opportunity to simplify complexity, every optimization is a chance to improve user experience, and every line of code is written with maintainability in mind. Driven by curiosity and continuous learning, I enjoy building modern applications that are fast, scalable, and genuinely useful.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -81,6 +81,14 @@ export const Hero: React.FC = () => {
               >
                 <Code size={16} />
                 <span>GITHUB</span>
+              </a>
+              <a
+                href="/Aaromal_Anil_Resume.docx"
+                download="Aaromal_Anil_Resume.docx"
+                className="ghost-border px-8 py-4 text-primary font-label-caps text-label-caps font-bold hover:bg-primary/10 transition-all flex items-center space-x-2"
+              >
+                <Download size={16} />
+                <span>RESUME</span>
               </a>
             </div>
           </div>

@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
     <footer className="bg-surface-container-lowest py-8 border-t border-white/5">
       <div className="container max-w-container-max mx-auto px-margin-desktop md:flex md:justify-between md:items-center text-center space-y-4 md:space-y-0">
         <div className="font-code-sm text-code-sm text-primary tracking-wider">
-          © 2024 PORTFOLIO. STACKED WITH PRECISION.
+          © {new Date().getFullYear()} PORTFOLIO. Built : React,TS & Tailwind
         </div>
         
         <div className="flex justify-center space-x-8">
@@ -27,7 +27,8 @@ export const Footer: React.FC = () => {
           </a>
           <a 
             className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors tracking-widest" 
-            href="#"
+            href="/Aaromal_Anil_Resume.docx"
+            download="Aaromal_Anil_Resume.docx"
           >
             Resume
           </a>
