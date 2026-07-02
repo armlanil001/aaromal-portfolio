@@ -42,7 +42,7 @@ export const Contact: React.FC = () => {
 
       <div className="container max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 text-center">
 
-        <h2 className="font-display text-display text-[2.5rem] md:text-display text-primary mb-8 leading-tight">
+        <h2 className="font-display text-display text-[1.85rem] sm:text-[2.5rem] md:text-display text-primary mb-8 leading-tight">
           Ready to Build Something Remarkable?
         </h2>
 

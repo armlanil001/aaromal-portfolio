@@ -22,7 +22,7 @@ export const Projects: React.FC = () => {
     {
       title: 'MedicoPlus',
       tags: ['REACT', 'NODE.JS', 'SIGNALR'],
-      description: 'A modern Learning Management System built for educational institutions to manage courses, trainees, faculty, assessments, learning modules, and classroom activities. The platform provides a centralized environment for delivering educational content, tracking learner progress, and improving collaboration between instructors and students.',
+      description: 'MedicoPlus is a comprehensive healthcare management platform designed for hospitals and clinics to streamline patient care, consultation workflows, appointment scheduling, and clinical documentation. The platform enables healthcare professionals to efficiently manage patient records, treatment plans, diagnostics, billing, and operational workflows through an intuitive and scalable interface.',
       link: '#',
       linkLabel: 'CASE STUDY',
       imageUrl: medicoPlusImage,
@@ -32,7 +32,7 @@ export const Projects: React.FC = () => {
     {
       title: 'EduLearn LMS',
       tags: ['REACT', 'POSTGRESQL', 'SEQUELIZE'],
-      description: 'MedicoPlus is a comprehensive healthcare management platform designed for hospitals and clinics to streamline patient care, consultation workflows, appointment scheduling, and clinical documentation. The platform enables healthcare professionals to efficiently manage patient records, treatment plans, diagnostics, billing, and operational workflows through an intuitive and scalable interface.',
+      description: 'A modern Learning Management System built for educational institutions to manage courses, trainees, faculty, assessments, learning modules, and classroom activities. The platform provides a centralized environment for delivering educational content, tracking learner progress, and improving collaboration between instructors and students.',
       link: '#',
       linkLabel: 'SYSTEM ARCHITECTURE',
       techStack: ['React.js', 'TypeScript', 'Redux Toolkit', 'REST APIs'],
