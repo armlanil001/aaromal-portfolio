@@ -83,8 +83,8 @@ export const Hero: React.FC = () => {
                 <span>GITHUB</span>
               </a>
               <a
-                href="/Aaromal_Anil_Resume.docx"
-                download="Aaromal_Anil_Resume.docx"
+                href="/Aaromal_Anil_Resume.pdf"
+                download="Aaromal_Anil_Resume.pdf"
                 className="ghost-border px-8 py-4 text-primary font-label-caps text-label-caps font-bold hover:bg-primary/10 transition-all flex items-center space-x-2"
               >
                 <Download size={16} />

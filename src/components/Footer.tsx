@@ -27,8 +27,8 @@ export const Footer: React.FC = () => {
           </a>
           <a 
             className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors tracking-widest" 
-            href="/Aaromal_Anil_Resume.docx"
-            download="Aaromal_Anil_Resume.docx"
+            href="/Aaromal_Anil_Resume.pdf"
+            download="Aaromal_Anil_Resume.pdf"
           >
             Resume
           </a>
